@@ -7,10 +7,6 @@
 
 
 def sockMerchant(n, arr):
-	arr = []
-	for i in range(n):
-		sock = int(input())
-		arr.append(sock)
 	pair = {}
 	for i in arr:
 		occurence = (arr.count(i))//2
